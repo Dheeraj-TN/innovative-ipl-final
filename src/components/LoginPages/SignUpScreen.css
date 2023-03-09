@@ -1,0 +1,70 @@
+.signUpScreen {
+    position: relative;
+    background: url("https://github.blog/wp-content/uploads/2020/12/102393310-07478b80-3f8d-11eb-84eb-392d555ebd29.png?fit=1200%2C630") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signUpScreen__form {
+    max-width: 350px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.95);
+
+}
+
+.signUpScreen__form>form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signUpScreen__form>form>input {
+    outline: 0;
+    height: 40px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.signUpScreen__form>form>button {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6e40c9;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 100ms ease;
+}
+
+.signUpScreen__form>form>button:hover {
+    transform: scale(1.05);
+}
+
+.signUpScreen__form>form>h1 {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.signUpScreen__form>form>h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.span1 {
+    color: gray;
+}
+
+.signIn__link {
+    color: white;
+}
+
+.signIn__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}

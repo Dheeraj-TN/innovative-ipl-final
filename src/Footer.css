@@ -1,0 +1,78 @@
+.footer {
+    margin-top: 20px;
+}
+.top {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.top>h2 {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.top>p {
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #DDDDDD;
+    cursor: pointer;
+}
+.top>.part2>p:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.top>.part3>p:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.top>.part4>p:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.social__media {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.app__icons {
+    margin: 20px 40px;
+}
+
+.bottom>span {
+    display: flex;
+    justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.copyright {
+    color: gray;
+    margin-right: 10px;
+}
+.quiries {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.quiries>h3 {
+    margin-bottom: 10px;
+}
+.quiries>button {
+    margin-top: 10px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    }
+.quiries>button:hover {
+    background-color: white;
+    color: black;
+}

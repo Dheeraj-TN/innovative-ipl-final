@@ -1,0 +1,8 @@
+.mainHome {
+    background-color: #f1f2f5;
+    width: 100%;
+}
+
+.mainHome__body {
+    display: flex;
+}

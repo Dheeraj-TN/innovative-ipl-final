@@ -1,0 +1,82 @@
+.video {
+    width: 400px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    transition: transform 100ms ease-in;
+}
+
+.video:hover {
+    transform: scale(1.07);
+}
+
+.video__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.video__text {
+    margin-left: 15px;
+}
+
+.video__text>h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.video__text>p {
+    color: gray;
+    font-size: 14px;
+}
+
+.channel__logo {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.truncate {
+    cursor: pointer;
+}
+
+.video__text>hr {
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Dislike {
+    gap: 2rem;
+    margin-left: 40px;
+}
+
+.video__text>.likeDislike {
+
+    display: flex;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.video__text>.likeDislike>.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.video__text>.likeDislike>.icons>p {
+    padding-left: 10px;
+}
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    cursor: pointer;
+    color: white;
+}
+
+.full__project {
+    text-decoration: none;
+    color: white;
+}

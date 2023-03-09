@@ -1,0 +1,57 @@
+.domain__sideBarRow {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.dsb__icon {
+    color: #606060;
+    font-size: large !important
+}
+
+.dsb__title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.domain__sideBarRow:hover {
+    background-color: #aaa;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.active {
+    background-color: #aaa;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.domain__sideBarRow:hover>.dsb__icon {
+    color: red;
+}
+
+.domain__sideBarRow:hover>.dsb__title {
+    font-weight: bold;
+}
+
+.domain__sideBarRow.selected {
+    background-color: #aaa;
+    border-radius: 15px;
+}
+
+.domain__sideBarRow.selected>.dsb__icon {
+    color: red;
+}
+
+.domain__sideBarRow.selected>.dsb__title {
+    font-weight: bold;
+    color: black;
+}

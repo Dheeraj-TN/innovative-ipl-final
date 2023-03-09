@@ -1,0 +1,71 @@
+.msgSender {
+    flex: 1;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+
+}
+
+.msgSender__top {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+
+    padding: 15px;
+}
+
+.msgSender__top>form {
+    flex: 1;
+    display: flex;
+}
+
+.msgSender__top>form>input {
+
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+/* @media(max-width:1200px) {
+    .msgSender__top>form>button {
+        display: visible;
+    }
+} */
+
+/* .msgSender__top>form>button {
+    display: none;
+} */
+
+.msgSender__top>input {
+    flex: 1;
+}
+
+.msgSender__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.msgSender__options {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: gray;
+    margin: 5px;
+}
+
+.msgSender__options>h3 {
+    font-size: medium;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.msgSender__options:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}

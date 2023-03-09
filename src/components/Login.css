@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.loginScreen {
+
+    position: relative;
+    /* height: 100%; */
+    background: url("https://github.blog/wp-content/uploads/2020/12/102393310-07478b80-3f8d-11eb-84eb-392d555ebd29.png?fit=1200%2C630") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login__gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0) 100%);
+}
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    margin-top: 20px;
+    width: 130px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.loginScreen__button {
+    position: fixed;
+    right: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.loginScreen__body {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px;
+}
+
+.loginScreen__body>h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.loginScreen__body>h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.loginScreen__input>form>input {
+    padding: 10px;
+    outline: 0;
+    height: 53px;
+    border: none;
+    width: 30%;
+    max-width: 600px;
+    border-radius: 3px;
+}
+
+.loginScreen__getStarted {
+    padding: 16px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6e40c9;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}

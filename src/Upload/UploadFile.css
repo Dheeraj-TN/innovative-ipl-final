@@ -1,0 +1,15 @@
+.uploadFile {
+    display: grid;
+}
+
+.uploadFile>button {
+    background: #93BFCF;
+    height: 20px;
+    width: 80px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    border: none;
+}

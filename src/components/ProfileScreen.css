@@ -1,0 +1,77 @@
+.profileScreen {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: black;
+}
+
+.details {
+    width: 300px;
+    margin-top: 180px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.icon {
+    font-size: 90px;
+    align-items: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.details>span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.details>span>h3 {
+    font-weight: 600;
+}
+
+.details>span>p {
+    padding-left: 10px;
+    font-weight: lighter;
+
+}
+
+.db__details>span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.db__details>span>p {
+    padding-left: 10px;
+}
+
+.icons {
+    display: flex;
+}
+
+.social__icons {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.details>button {
+    font-size: 20px;
+    padding: 13px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
